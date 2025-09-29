@@ -6,6 +6,7 @@ int main(){
     int a,b;
     cin>>a>>b;
     for (int i=a;i<b;i++){
+        
         string s=to_string(i);
         int l=s.size();
         int sum=0;
